@@ -13,3 +13,5 @@ add_library(stm32_driver STATIC
     stm32f4xx_hal.c
     ${hal_src}
 )
+
+target_compile_definitions(stm32_driver PUBLIC USE_HAL_DRIVER STM32F405xx)
