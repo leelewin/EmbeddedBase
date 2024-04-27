@@ -1,8 +1,8 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 int main()
 {
-	printf("is runing\n");
+	// printf("is runing\n");
 
 	return 0;
 }

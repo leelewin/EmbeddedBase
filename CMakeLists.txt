@@ -4,7 +4,7 @@ project(embeddedBase C CXX ASM)
 # utility
 include(util.cmake)
 
-# config from KCONFIG
+# config from KCONFIG autogen
 #config.cmake
 
 # toolchain
