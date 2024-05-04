@@ -1,3 +1,9 @@
+include_directories(
+    ${PROJECT_SOURCE_DIR}/driver/include/cmsis
+    ${PROJECT_SOURCE_DIR}/driver/include/stm32
+    ${PROJECT_SOURCE_DIR}/driver/include/core
+)
+
 add_executable(${PROJECT_NAME}
     main.c
 )
